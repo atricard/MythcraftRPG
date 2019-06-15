@@ -1,0 +1,1 @@
+execute if score @s wcLvl >= @s wcMax run function mythcraft:stats/woodcuttinglvlup

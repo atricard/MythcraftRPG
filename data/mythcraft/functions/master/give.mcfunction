@@ -1,0 +1,9 @@
+give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Magic Grindstone\",\"italic\":false}",Lore:["{\"text\":\"Place down to create\",\"color\":\"yellow\",\"italic\":false}","{\"text\":\"a temporary station for\",\"color\":\"yellow\",\"italic\":false}","{\"text\":\"sharpening your weapons.\",\"color\":\"yellow\",\"italic\":false}","{\"text\":\"One-time use.\",\"color\":\"red\",\"italic\":false}"]},CustomModelData:2201,EntityTag:{id:"minecraft:area_effect_cloud",Particle:"large_smoke",Tags:["grindstoneplace"]}}
+give @s minecraft:knowledge_book{Toggle:1,Recipes:["mythcraft:togglespells"],CustomModelData:1101,display:{Name:"{\"text\":\"Toggle Spells\",\"color\":\"light_purple\",\"italic\":false,\"underlined\":true}",Lore:["{\"text\":\"Right-click to reveal your spells.\",\"color\":\"yellow\",\"italic\":false}"]}}
+give @s minecraft:chest{BlockEntityTag:{LootTable:"mythcraft:chests/uncommon/dungeon_chest_0"}}
+give @s minecraft:chest{BlockEntityTag:{LootTable:"mythcraft:chests/uncommon/dungeon_chest_1"}}
+give @s minecraft:chest{BlockEntityTag:{LootTable:"mythcraft:chests/uncommon/dungeon_chest_2"}}
+give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Coal Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["coalplace","placeore"]}} 1
+give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Gold Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["goldplace","placeore"]}} 1
+give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Iron Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["ironplace","placeore"]}} 1
+give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Diamond Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["diamondplace","placeore"]}} 1

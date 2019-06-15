@@ -1,0 +1,1 @@
+execute if score @s pietyLvl >= @s pietyMax run function mythcraft:stats/pietylvlup

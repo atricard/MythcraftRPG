@@ -1,0 +1,1 @@
+execute if score @s smithingLvl >= @s smithingMax run function mythcraft:stats/smithinglvlup

@@ -1,0 +1,456 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 7,
+          "max": 12
+        },
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:trident",
+            "weight": 1,
+            "quality": 16,
+            "functions": [
+              {
+                "function": "enchant_randomly",
+                "enchantments": [
+                  "loyalty"
+                ],
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.286
+                  }
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.15,
+                  "max": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:diamond_sword",
+            "weight": 1,
+            "quality": 16,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 0,
+                  "max": 50
+                }
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.22,
+                  "max": 0.89
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:shield",
+            "weight": 1,
+            "quality": 20,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 5,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.348
+                  }
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.43,
+                  "max": 0.92
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{BlockEntityTag:{Base:13,Patterns:[{Color:15,Pattern:\"cre\"}]}}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:shield",
+            "weight": 1,
+            "quality": 20,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 0,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.323
+                  }
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.43,
+                  "max": 0.92
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{BlockEntityTag:{Base:0,Patterns:[{Color:4,Pattern:\"flo\"}]}}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:shield",
+            "weight": 1,
+            "quality": 20,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 0,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.444
+                  }
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.44,
+                  "max": 0.96
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{BlockEntityTag:{Base:8,Patterns:[{Color:0,Pattern:\"sku\"}]}}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:iron_chestplate",
+            "weight": 1,
+            "quality": 30,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 20,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.379
+                  }
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.71,
+                  "max": 0.93
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:\"{\\\"text\\\":\\\"Breastplate of Asklepios\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\u272f Uncommon \u272f\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"The wearer shall recieve +5 HP.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"]},AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:5,Operation:0,UUIDLeast:746002,UUIDMost:456860,Slot:\"chest\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:chainmail_chestplate",
+            "weight": 1,
+            "quality": 57,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 20,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.351
+                  }
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.4,
+                  "max": 0.94
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:\"{\\\"text\\\":\\\"Chain Mail Augmenting Tunic\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\u272f Uncommon \u272f\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"The wearer shall recieve +2 Attack Damage.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"]},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:2,Operation:0,UUIDLeast:746002,UUIDMost:456860,Slot:\"chest\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:leather_boots",
+            "weight": 1,
+            "quality": 79,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 20,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.168
+                  }
+                ]
+              },
+              {
+                "function": "enchant_randomly",
+                "enchantments": [
+                  "feather_falling"
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.38,
+                  "max": 0.91
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:\"{\\\"text\\\":\\\"Pair of Hermes' Boots\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\u272f Rare \u272f\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"The wearer shall recieve +5% Speed.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"]},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:0,UUIDLeast:746002,UUIDMost:456860,Slot:\"feet\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:iron_boots",
+            "weight": 1,
+            "quality": 35,
+            "functions": [
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 20,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.37
+                  }
+                ]
+              },
+              {
+                "function": "enchant_randomly",
+                "enchantments": [
+                  "unbreaking"
+                ]
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.48,
+                  "max": 0.98
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:\"{\\\"text\\\":\\\"Heavy Boots\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\u272f Uncommon \u272f\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"The wearer shall be resistant to knockback.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"]},AttributeModifiers:[{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.5,Operation:0,UUIDLeast:746002,UUIDMost:456860,Slot:\"feet\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:golden_sword",
+            "weight": 1,
+            "quality": 30,
+            "functions": [
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.98,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:\"{\\\"text\\\":\\\"Heliosword\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\u272f Uncommon \u272f\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"Useful for smiting the undead.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\"]},Enchantments:[{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:sweeping\",lvl:5s}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:gold_ingot",
+            "weight": 6,
+            "quality": 7,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:gunpowder",
+            "weight": 3,
+            "quality": 4,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:iron_ingot",
+            "weight": 4,
+            "quality": 5,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:iron_horse_armor",
+            "weight": 1,
+            "quality": 15,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "enchant_with_levels",
+                "treasure": true,
+                "levels": {
+                  "min": 20,
+                  "max": 39
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.27
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:prismarine_crystals",
+            "weight": 3,
+            "quality": 9,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:quartz",
+            "weight": 5,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:potion",
+            "weight": 5,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 5,
+            "quality": 8,
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              },
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

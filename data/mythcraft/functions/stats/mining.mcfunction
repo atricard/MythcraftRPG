@@ -1,0 +1,1 @@
+execute if score @s miningLvl >= @s miningMax run function mythcraft:stats/mininglvlup

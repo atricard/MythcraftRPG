@@ -1,0 +1,1 @@
+execute if score @s lootingLvl >= @s lootingMax run function mythcraft:stats/lootinglvlup

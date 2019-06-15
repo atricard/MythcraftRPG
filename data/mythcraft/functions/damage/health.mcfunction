@@ -1,0 +1,1 @@
+execute as @e[type=!armor_stand] store result score @s health run data get entity @s Health

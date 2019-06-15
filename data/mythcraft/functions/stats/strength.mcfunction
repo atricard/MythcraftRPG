@@ -1,0 +1,1 @@
+execute if score @s strengthLvl >= @s strengthMax run function mythcraft:stats/strengthlvlup

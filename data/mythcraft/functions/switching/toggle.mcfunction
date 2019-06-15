@@ -1,0 +1,5 @@
+execute as @a[tag=togglefirst,scores={bookclick=1..}] at @a as @e[tag=save_data,type=minecraft:armor_stand,sort=nearest,limit=1] run function mythcraft:switching/storing
+execute as @a[tag=togglesecond,scores={bookclick=1..}] at @a as @e[tag=save_data,type=minecraft:armor_stand,sort=nearest,limit=1] run function mythcraft:switching/ignitestore
+execute as @s run function mythcraft:master/resetbook
+tag @a[nbt={SelectedItemSlot:8,SelectedItem:{id:"minecraft:knowledge_book",Count:1b,tag:{Toggle:1,Recipes:["mythcraft:togglespells"],CustomModelData:1101,display:{Name:"{\"text\":\"Toggle Spells\",\"color\":\"light_purple\",\"italic\":false,\"underlined\":true}",Lore:["{\"text\":\"Right-click to reveal your spells.\",\"color\":\"yellow\",\"italic\":false}"]}}}}] add togglefirst
+tag @a[nbt={SelectedItemSlot:8,SelectedItem:{id:"minecraft:knowledge_book",Count:1b,tag:{Toggle:1,Recipes:["mythcraft:togglespells"],CustomModelData:1101,display:{Name:"{\"text\":\"Toggle Hotbar\",\"color\":\"light_purple\",\"italic\":false,\"underlined\":true}",Lore:["{\"text\":\"Right-click to reveal your hotbar.\",\"color\":\"yellow\",\"italic\":false}"]}}}}] add togglesecond
