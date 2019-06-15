@@ -7,3 +7,4 @@ give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Coal Ore\"}"},Entity
 give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Gold Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["goldplace","placeore"]}} 1
 give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Iron Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["ironplace","placeore"]}} 1
 give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Diamond Ore\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["diamondplace","placeore"]}} 1
+give @s minecraft:wolf_spawn_egg{display:{Name:"{\"text\":\"Smithing Table\"}"},EntityTag:{id:"minecraft:bat",Silent:1b,Tags:["smithingtableplace"]}} 1

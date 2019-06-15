@@ -1,0 +1,11 @@
+execute store result score @s itemWood run clear @s minecraft:phantom_membrane{display:{Name:"{\"text\":\"Wood\",\"italic\":false}"},CustomModelData:5501} 0
+execute store result score @s itemStone run clear @s minecraft:phantom_membrane{display:{Name:"{\"text\":\"Stone\",\"italic\":false}"},CustomModelData:5502} 0
+execute store result score @s itemRuby run clear @s minecraft:phantom_membrane{display:{Name:"{\"text\":\"Ruby\",\"italic\":false}"},CustomModelData:5503} 0
+execute store result score @s itemIron run clear @s minecraft:iron_ingot 0
+execute store result score @s itemDiamond run clear @s minecraft:diamond 0
+execute store result score @s itemString run clear @s minecraft:string 0
+execute store result score @s itemGold run clear @s minecraft:gold_ingot 0
+execute store result score @s itemFeather run clear @s minecraft:feather 0
+execute store result score @s itemBone run clear @s minecraft:bone 0
+execute store result score @s itemLeather run clear @s minecraft:leather 0
+execute store result score @s itemFeather run clear @s minecraft:feather 0

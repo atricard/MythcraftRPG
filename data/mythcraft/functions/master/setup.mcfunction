@@ -70,6 +70,21 @@ scoreboard objectives add mineDiamond minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add oreCD dummy
 scoreboard objectives add oreSpawn dummy
 
+scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add smithingPage dummy
+scoreboard objectives add clickvillager minecraft.custom:minecraft.talked_to_villager
+
+scoreboard objectives add itemWood dummy
+scoreboard objectives add itemStone dummy
+scoreboard objectives add itemIron dummy
+scoreboard objectives add itemDiamond dummy
+scoreboard objectives add itemLeather dummy
+scoreboard objectives add itemString dummy
+scoreboard objectives add itemRuby dummy
+scoreboard objectives add itemGold dummy
+scoreboard objectives add itemFeather dummy
+scoreboard objectives add itemBone dummy
+
 #Gamerules
 gamerule doLimitedCrafting true
 gamerule keepInventory true

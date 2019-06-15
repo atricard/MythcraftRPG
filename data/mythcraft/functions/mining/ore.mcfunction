@@ -16,7 +16,6 @@ execute as @e[tag=ore] at @s run function mythcraft:mining/cooldown
 execute as @e[tag=ore] at @s unless block ~ ~ ~ minecraft:air run scoreboard players set @s oreCD 1
 execute as @e[tag=ore] at @s if block ~ ~ ~ minecraft:air run scoreboard players set @s[scores={oreCD=1}] oreCD 36001
 
-execute as @e[tag=ore,scores={oreCD=2..36001}] at @s run particle minecraft:happy_villager ~ ~ ~ 0.25 0.25 0.25 0 1 force
 execute as @e[tag=ore,tag=coal,scores={oreCD=2..36001}] at @s run particle dust 0.176 0.180 0.180 1 ~ ~ ~ 0.25 0.25 0.25 0 3 force
 execute as @e[tag=ore,tag=gold,scores={oreCD=2..36001}] at @s run particle dust 1.000 0.914 0.129 1 ~ ~ ~ 0.25 0.25 0.25 0 3 force
 execute as @e[tag=ore,tag=iron,scores={oreCD=2..36001}] at @s run particle dust 1.000 0.749 0.322 1 ~ ~ ~ 0.25 0.25 0.25 0 3 force

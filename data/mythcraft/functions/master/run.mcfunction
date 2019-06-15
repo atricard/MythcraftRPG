@@ -68,3 +68,7 @@ execute as @a[tag=whip] at @s run function mythcraft:weapons/whip
 execute as @a run title @s actionbar [{"text":"["},{"score":{"name":"@s","objective":"health"},"color":"red"},{"text":"/"},{"text":"60","color":"red"},{"text":"]  "},{"text":"⚔ "},{"score":{"name":"@s","objective":"strength"},"color":"dark_red"},{"text":"  ✪ "},{"score":{"name":"@s","objective":"magic"},"color":"dark_blue"},{"text":"  ⚒ "},{"score":{"name":"@s","objective":"smithing"},"color":"dark_gray"},{"text":"  ⽄ "},{"score":{"name":"@s","objective":"wc"},"color":"dark_green"},{"text":"  ⛏ "},{"score":{"name":"@s","objective":"mining"},"color":"dark_aqua"},{"text":"  ➹ "},{"score":{"name":"@s","objective":"looting"},"color":"gold"},{"text":"  ✝ "},{"score":{"name":"@s","objective":"piety"},"color":"dark_purple"},{"text":"  ["},{"score":{"name":"@s","objective":"mana"},"color":"aqua"},{"text":"/"},{"text":"100","color":"aqua"},{"text":"]"}]
 
 function mythcraft:mining/ore
+execute as @a run function mythcraft:smithing/view/store
+function mythcraft:smithing/view/scroll
+execute as @a[tag=smithing] run function mythcraft:smithing/crafting/wood
+function mythcraft:smithing/placing
